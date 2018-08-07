@@ -6,6 +6,9 @@ At Cien, we are engaged with a variety of tools and techniques for making the da
 - **Git** : Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,but it can be used to keep track of changes in any set of files.
 - **Bitbucket** : Bitbucket is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use Git revision control systems.
 - **Jira** : Jira is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions.
+  + **What is Jira workflow?**
+  
+  
 - **Python** : 
 - **Sublime Text** or **VS Code** or some IDE of your choice for running Python
 - **MongoDB** :
@@ -78,3 +81,13 @@ The Cien DS package depends on some other Python packages. Install them by issui
 
 **Setting the environment variables**: Go to LastPass and copy to clipboard the contents of the bash profile DS note, located in the Shared-Data Science folder. Then, paste the contents of the note at the end of the `~/.bashrc` file. Save and close. Finally, close and open the terminal to make the changes effective.
 
+## 5. Understanding the Cien-DS Package
+structure of the cien_ds package relevant to a data scientist, i.e.: folders corresponding to collections, job runner, utils
+base model and writing an assignment model & training model, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model.md
+using the model tester, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model_tester.md
+
+## 6. structure of our Mongo database: entity collections, data logs, job logs, also some basic info on mongo, such as this: https://cienbcn.atlassian.net/wiki/spaces/DAT/pages/82706433/2.+MongoDB
+
+most important common fields in Mongo, such as coid, docid, `_id`, distinction between raw, crm and ml fields
+creating training sets, refer to Shelby's documentation
+definitions: lead, opp, account, how salesforce can be used for prospecting and selling, how collections are related: activities performed on an opp/lead/account object, etc, some documentation on this should be in Drive
