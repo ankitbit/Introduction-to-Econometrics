@@ -57,8 +57,8 @@ This documentation will take you through the process of installing the Cien DS p
   + Git
   + A BitBucket account. Once ready, ask a Cien dev manager to add you as member of the BitBucket group.
   + A LastPass account. Once ready, ask a Cien dev manager to share the Shared-Data Science folder with you.
-  + Downloading the repository
-The project repository is located on BitBucket. Download it with git:
+  
+**Downloading the repository**: The project repository is located on BitBucket. Download it with git:
 
 `$ git clone git@bitbucket.org:cienbcn/cien-ds.git`
 
@@ -66,14 +66,11 @@ Installing the requirements
 Change directory to the following location:
 
 `$ cd cien-ds/job_runner`
-The Cien DS package depends on some other Python packages. Install them by issuing the following commands:
+The Cien DS package depends on some other Python packages. Install them by issuing the following commands (However, if you've installed the packages mentioned in requirements.txt file, you don't have to do this again):
 
 `$ pip install -r requirements.txt`
+
 `$ sudo python -m nltk.downloader -d /usr/share/nltk_data words stopwords wordnet`
-Setting the environment variables
-Go to LastPass and copy to clipboard the contents of the bash profile DS note, located in the Shared-Data Science folder.
 
-Then, paste the contents of the note at the end of the ~/.bashrc file. Save and close.
-
-Finally, close and open the terminal to make the changes effective.
+**Setting the environment variables**: Go to LastPass and copy to clipboard the contents of the bash profile DS note, located in the Shared-Data Science folder. Then, paste the contents of the note at the end of the `~/.bashrc` file. Save and close. Finally, close and open the terminal to make the changes effective.
 
