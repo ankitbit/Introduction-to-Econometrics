@@ -68,8 +68,8 @@ Change directory to the following location:
 `$ cd cien-ds/job_runner`
 The Cien DS package depends on some other Python packages. Install them by issuing the following commands:
 
-$ pip install -r requirements.txt
-$ sudo python -m nltk.downloader -d /usr/share/nltk_data words stopwords wordnet
+`$ pip install -r requirements.txt`
+`$ sudo python -m nltk.downloader -d /usr/share/nltk_data words stopwords wordnet`
 Setting the environment variables
 Go to LastPass and copy to clipboard the contents of the bash profile DS note, located in the Shared-Data Science folder.
 
