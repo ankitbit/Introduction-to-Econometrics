@@ -15,7 +15,11 @@ At Cien, we are engaged with a variety of tools and techniques for making the da
 
 ## 3. Setting up the Python
 - Install Python 2.7: https://www.anaconda.com/download/
+
+## 4. Setting up the Git
 - Install Git: https://git-scm.com/downloads
+
+## 5. Installing the dependencies for the Cien-DS Package
 - Copy the following and paste it into a text file "requirements.txt" in your local working directory (i.e. the directory where you are at present rather than the root / parent directory).
   + simplejson==3.13.2
   + scikit-learn==0.18.1
