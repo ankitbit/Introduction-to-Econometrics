@@ -84,6 +84,18 @@ The Cien DS package depends on some other Python packages. Install them by issui
 ## 5. Understanding the Cien-DS Package
 structure of the cien_ds package relevant to a data scientist, i.e.: folders corresponding to collections, job runner, utils
 base model and writing an assignment model & training model, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model.md
+
+- **How to run the models?**
+
+The need to run the machine learning models (both assignment or training) can be due to either of the following reasons:
+- Checking how well your model is performing in terms of training error;
+- Checking what values an assignment model is computing as part of final computations;
+- Writing the values computed by your model to the database which is MONGODB in our case.
+
+So, we can accomplish all these objectives and many similar like them using our **model tester**. The objective of the model tester as the name says is to run the model as part of testing procedures. However, even if we are not testing and actually willing to write directly into the database, the model tester is something that we have to use. 
+
+In order to run model tester, we have to change the diretory inside the CIEN-DS
+ 
 using the model tester, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model_tester.md
 
 ## 6. structure of our Mongo database: entity collections, data logs, job logs, also some basic info on mongo, such as this: https://cienbcn.atlassian.net/wiki/spaces/DAT/pages/82706433/2.+MongoDB
