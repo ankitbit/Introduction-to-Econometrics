@@ -82,10 +82,7 @@ The Cien DS package depends on some other Python packages. Install them by issui
 **Setting the environment variables**: Go to LastPass and copy to clipboard the contents of the bash profile DS note, located in the Shared-Data Science folder. Then, paste the contents of the note at the end of the `~/.bashrc` file. Save and close. Finally, close and open the terminal to make the changes effective.
 
 ## 5. Understanding the Cien-DS Package
-structure of the cien_ds package relevant to a data scientist, i.e.: folders corresponding to collections, job runner, utils
-base model and writing an assignment model & training model, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model.md
-
-- In order to have a brief overview of most relevant directories in the cien-ds package, this document explaining the structure of the cien-ds package can be of utmost importance: [structure of cien-ds package](https://docs.google.com/document/d/1m3RcmNx4XixGw-jmImSZDdN-10zsoZ1CcLPREi63h7I/edit?usp=sharing)
+- In order to have a brief overview of most relevant directories in the cien-ds package, this document explaining the structure of the cien-ds package can be of utmost importance: [structure of cien-ds package](https://docs.google.com/document/d/1m3RcmNx4XixGw-jmImSZDdN-10zsoZ1CcLPREi63h7I/edit?usp=sharing).
 
 
 ## 6. Understanding the Cien's Mongo Database 
