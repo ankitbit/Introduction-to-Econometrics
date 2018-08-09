@@ -3,10 +3,12 @@
 
 ## 2. Data Science tools, platforms and practices
 At Cien, we are engaged with a variety of tools and techniques for making the data science processes as exciting as possible while yielding the best on time. In this regard, we would like to introduce you to following tools-
-- **Git** : Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,but it can be used to keep track of changes in any set of files. Git can be installed through this [link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- **Git** : Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,but it can be used to keep track of changes in any set of files. Git can be installed through this [link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or by using the link https://git-scm.com/downloads
 - **Bitbucket** : Bitbucket is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use Git revision control systems. We can signup for the bitbucket using the @cien.ai extension email at this [link](https://bitbucket.org/account/signup/)
 - **Jira** : Jira is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions. 
-  + **What is Jira workflow?**
+  + **What is Jira workflow?** 
+  
+   The JIRA workflow describes the process of tracking the progress of the development of a model or resolution of a conflict/issue. This process tracking is important for a lot of purposes sucha as backlog tracking, status identification of assignment etc. We can understand the workflow exactly as used by the Cien's data science team through this document: [Understanding JIRA workflow](https://docs.google.com/document/d/1RMRGyiqh09yaYUGUhB3x7PxzztUnFqsBMARneZ_Q74s/edit)
   
   
 - **Python** : At Cien, we are working with the Python 2.7 as our preferred language for developing data science software. We can install Python 2.7: https://www.anaconda.com/download/
@@ -105,7 +107,6 @@ creating training sets, refer to Shelby's documentation
 - How can I run the machine learning models that I have created for the purpose of training, validation, testing and writing the computed values in databse?
   + using the model tester, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model_tester.md
   + - **How to run the models?**
-
 The need to run the machine learning models (both assignment or training) can be due to either of the following reasons:
 - Checking how well your model is performing in terms of training error;
 - Checking what values an assignment model is computing as part of final computations;
