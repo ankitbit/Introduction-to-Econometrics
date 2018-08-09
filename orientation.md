@@ -106,16 +106,14 @@ creating training sets, refer to Shelby's documentation
 
 - How can I run the machine learning models that I have created for the purpose of training, validation, testing and writing the computed values in databse?
   + using the model tester, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model_tester.md
-  + - **How to run the models?**
+- **How to run the models?**
+
 The need to run the machine learning models (both assignment or training) can be due to either of the following reasons:
-- Checking how well your model is performing in terms of training error;
-- Checking what values an assignment model is computing as part of final computations;
-- Writing the values computed by your model to the database which is MONGODB in our case.
+   + Checking how well your model is performing in terms of training error;
+   + Checking what values an assignment model is computing as part of final computations;
+   + Writing the values computed by your model to the database which is MONGODB in our case.
 
-So, we can accomplish all these objectives and many similar like them using our **model tester**. The objective of the model tester as the name says is to run the model as part of testing procedures. However, even if we are not testing and actually willing to write directly into the database, the model tester is something that we have to use. 
+   + So, we can accomplish all these objectives and many similar like them using our **model tester**. The objective of the model tester as the name says is to run the model as part of testing procedures. However, even if we are not testing and actually willing to write directly into the database, the model tester is something that we have to use. 
+In order to run model tester, we have to follow the steps specified in this documentation: [Introduction to the Model Tester](https://docs.google.com/document/d/144Rz6addcV3dcSbpZAf4c2FK0PbTEZc9qASd6mAvTBg/edit?usp=sharing)
 
-In order to run model tester, we have to change the diretory inside the CIEN-DS
- 
-using the model tester, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model_tester.md
-- 
 
