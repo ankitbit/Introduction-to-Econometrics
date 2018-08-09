@@ -100,7 +100,7 @@ creating training sets, refer to Shelby's documentation
 - When do I begin working on a machine learning model?
   + We begin working on a task of creating a machine learning model once a task is assigned to us in the form of a JIRA card  through the JIRA issue tracking system. The steps to proceed once an issue is assigned to create a model is described in this document :[first steps after issuance of a JIRA Card](https://docs.google.com/document/d/1YwwBfZslVnn2nOg5A1gWE94Obh_Cl9VGZehBmumjLRA/edit?usp=sharing)
 - How can I create training sets for my machine learning models?
-  + https://docs.google.com/document/d/1svG5GuPW6aU9uG1Z8pnc6b-b0ULGNaWVpIMdyo6T9vk/edit?usp=sharing
+  + Once we have followed the above mentioned steps to create a branch to work on our assigned task, we can always go on to create a model from scratch or maybe by using some of the existing resource that the data scientists at cien have already created. In this case, the file mentioned here can be of exemplary importance: [Creating the first Machine Learning](https://docs.google.com/document/d/1GhmIiBDns63pyHeJUfjvAktOXUQxofLguLZm-rKLBfI/edit?usp=sharing) https://docs.google.com/document/d/1svG5GuPW6aU9uG1Z8pnc6b-b0ULGNaWVpIMdyo6T9vk/edit?usp=sharing
 - How can I create machine learning models? How do I know that which type of model is required for my assignment?
 
   + base model and writing an assignment model & training model, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model.md
