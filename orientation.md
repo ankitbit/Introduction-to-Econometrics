@@ -98,8 +98,13 @@ In order to run model tester, we have to change the diretory inside the CIEN-DS
  
 using the model tester, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model_tester.md
 
-## 6. structure of our Mongo database: entity collections, data logs, job logs, also some basic info on mongo, such as this: https://cienbcn.atlassian.net/wiki/spaces/DAT/pages/82706433/2.+MongoDB
+## 6. Understanding the Cien's Mongo Database 
+- structure of our Mongo database: entity collections, data logs, job logs, also some basic info on mongo, such as this: https://cienbcn.atlassian.net/wiki/spaces/DAT/pages/82706433/2.+MongoDB
 
-most important common fields in Mongo, such as coid, docid, `_id`, distinction between raw, crm and ml fields
+- Which are the most important common fields in Mongo, such as coid, docid, `_id`, distinction between raw, crm and ml fields
 creating training sets, refer to Shelby's documentation
-definitions: lead, opp, account, how salesforce can be used for prospecting and selling, how collections are related: activities performed on an opp/lead/account object, etc, some documentation on this should be in Drive
+
+- Where should I go for having definitions about: lead, opp, account, how salesforce can be used for prospecting and selling, how collections are related: activities performed on an opp/lead/account object, etc, some documentation on this should be in Drive
+
+
+
