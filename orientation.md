@@ -5,15 +5,15 @@
 At Cien, we are engaged with a variety of tools and techniques for making the data science processes as exciting as possible while yielding the best on time. In this regard, we would like to introduce you to following tools-
 - **Git** : Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,but it can be used to keep track of changes in any set of files.
 - **Bitbucket** : Bitbucket is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use Git revision control systems.
-- **Jira** : Jira is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions.
+- **Jira** : Jira is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions. 
   + **What is Jira workflow?**
   
   
-- **Python** : 
+- **Python** : At Cien, we are working with the Python 2.7 as our preferred language for developing data science software. We can install Python 2.7: https://www.anaconda.com/download/
 - **Sublime Text** or **VS Code** or some IDE of your choice for running Python
 - **MongoDB** :
-- **Studio 3t** :
-- **Lastpass** :
+- **Studio 3t** : It is a GUI based interface to access MongoDB. We can download it from https://studio3t.com/download/ . 
+- **Lastpass** : This is the coolest password management system known to data science community. At Cien, we use it extensively for sharing passwords during the development. We can download it from the link [Download Lastpass](https://lastpass.com/misc_download2.php). Once you have downloaded the lastpass, you've to register using the email with @cien.ai extension and request the Cien development manager or your supervisor to share the shared data science folder with you.
 - Cien_DS Package :
 
 ## 3. Setting up the Python
