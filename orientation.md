@@ -3,8 +3,8 @@
 
 ## 2. Data Science tools, platforms and practices
 At Cien, we are engaged with a variety of tools and techniques for making the data science processes as exciting as possible while yielding the best on time. In this regard, we would like to introduce you to following tools-
-- **Git** : Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,but it can be used to keep track of changes in any set of files.
-- **Bitbucket** : Bitbucket is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use Git revision control systems.
+- **Git** : Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,but it can be used to keep track of changes in any set of files. Git can be installed through this [link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- **Bitbucket** : Bitbucket is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use Git revision control systems. We can signup for the bitbucket using the @cien.ai extension email at this [link](https://bitbucket.org/account/signup/)
 - **Jira** : Jira is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions. 
   + **What is Jira workflow?**
   
