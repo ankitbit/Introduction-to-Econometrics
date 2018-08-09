@@ -106,7 +106,7 @@ creating training sets, refer to Shelby's documentation
 
 - Where should I go for having definitions about: lead, opp, account, how salesforce can be used for prospecting and selling, how collections are related: activities performed on an opp/lead/account object, etc, some documentation on this should be in Drive : We can always look to this [documentation](https://docs.google.com/document/d/1WM2FzXr8zbVry1q48Comq1dUGbqBwqTY5AKCWOrgGIs/edit?usp=sharing) for having a brief insight about these terms and processes
 
-## Doing Data Science on Cien Platform
+## Doing Machine Learning on Cien Platform
 - How can I create training sets for my machine learning models?
   + https://docs.google.com/document/d/1svG5GuPW6aU9uG1Z8pnc6b-b0ULGNaWVpIMdyo6T9vk/edit?usp=sharing
 - How can I create machine learning models? How do I know that which type of model is required for my assignment?
