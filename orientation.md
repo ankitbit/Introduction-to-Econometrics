@@ -35,19 +35,21 @@ At Cien, we are engaged with a variety of tools and techniques for making the da
   + joblib==0.11
   + xlrd==1.0.0
 
-To install the above python packages in pip, run "pip install -r requirements.txt" 
-Alternatively,  to install an individual package, run "pip install <package-name>==<version>" (e.g. : pip install gensim==2.2.0) for all the packages you wish to install
-Run the following shell command:
-python -m nltk.downloader -d /usr/share/nltk_data words stopwords wordnet
-Install Studio 3T (MongoDB interface): https://studio3t.com/download/ 
-Create accounts in the following (ask access if you cannot do it on your own):
-Jira
-Bitbucket
-Confluence
-Lastpass
-Ask access to:
-Lastpass shared folders
-Clone the Git repository of the cien_ds package locally following the instructions here: https://bitbucket.org/cienbcn/cien-ds/src/a6b4d62abc1e4482db2e80f626e61bef99f6128a/docs/git.md
+To install the above python packages in pip, run `"pip install -r requirements.txt"` .
+Alternatively,  to install an individual package, run `"pip install <package-name>==<version>"` (e.g. : pip install gensim==2.2.0) 
+
+for all the packages you wish to install, Run the following shell command:
+`python -m nltk.downloader -d /usr/share/nltk_data words stopwords wordnet`
+
+By now, you must have created accounts in the following (ask access if you cannot do it on your own):
+- Jira
+- Bitbucket
+- Confluence
+- Lastpass
+
+So, now you can ask for access to: Lastpass shared folders from your immediate supervisor or the Cien's development manager. Finally, Clone the Git repository of the cien_ds package locally following the instructions here: 
+`https://bitbucket.org/cienbcn/cien-ds/src/a6b4d62abc1e4482db2e80f626e61bef99f6128a/docs/git.md`
+
   
 ## 4. Installing the Cien-DS Package
 This documentation will take you through the process of installing the Cien DS package.
