@@ -90,17 +90,16 @@ creating training sets, refer to Shelby's documentation
 - Where should I go for having definitions about: lead, opp, account, how salesforce can be used for prospecting and selling, how collections are related: activities performed on an opp/lead/account object, etc, some documentation on this should be in Drive : We can always look to this [documentation](https://docs.google.com/document/d/1WM2FzXr8zbVry1q48Comq1dUGbqBwqTY5AKCWOrgGIs/edit?usp=sharing) for having a brief insight about these terms and processes
 
 ## 7. Doing Machine Learning on Cien Platform
-- When do I begin working on a machine learning model?
+- **When do I begin working on a machine learning model?**
   + We begin working on a task of creating a machine learning model once a task is assigned to us in the form of a JIRA card  through the JIRA issue tracking system. The steps to proceed once an issue is assigned to create a model is described in this document :[first steps after issuance of a JIRA Card](https://docs.google.com/document/d/1YwwBfZslVnn2nOg5A1gWE94Obh_Cl9VGZehBmumjLRA/edit?usp=sharing)
-- How can I create training sets for my machine learning models?
+- **How can I create training sets for my machine learning models?**
   + Once we have followed the above mentioned steps to create a branch to work on our assigned task, we can always go on to create a model from scratch or maybe by using some of the existing resource that the data scientists at cien have already created. In this case, the file mentioned here can be of exemplary importance: [Creating the first Machine Learning](https://docs.google.com/document/d/1GhmIiBDns63pyHeJUfjvAktOXUQxofLguLZm-rKLBfI/edit?usp=sharing) https://docs.google.com/document/d/1svG5GuPW6aU9uG1Z8pnc6b-b0ULGNaWVpIMdyo6T9vk/edit?usp=sharing
 - **How can I create machine learning models? How do I know that which type of model is required for my assignment?**
 
   + base model and writing an assignment model & training model, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model.md
 
 - **How can I run the machine learning models that I have created for the purpose of training, validation, testing and writing the computed values in databse?**
-  + using the model tester, refer to: https://bitbucket.org/cienbcn/cien-ds/src/78260a75aa963074bff268b870117559534ddc66/docs/model_tester.md
-- **How to run the models?**
+
    + The need to run the machine learning models (both assignment or training) can be due to either of the following reasons:
    + Checking how well your model is performing in terms of training error;
    + Checking what values an assignment model is computing as part of final computations;
