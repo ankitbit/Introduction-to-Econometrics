@@ -49,6 +49,36 @@ By now, you must have created accounts in the following (ask access if you canno
 
 So, now you can ask for access to: Lastpass shared folders from your immediate supervisor or the Cien's development manager. Finally, Clone the Git repository of the cien_ds package locally following the instructions here: 
 `https://bitbucket.org/cienbcn/cien-ds/src/a6b4d62abc1e4482db2e80f626e61bef99f6128a/docs/git.md`
+You should be familiar with git commands. The project uses GitFlow Workflow. Information on this process can be found here: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow.
+
+Firstly, clone the main Cien repo by issuing the following command (change <myusername>)
+
+`git clone https://<myusername>@bitbucket.org/cienbcn/cien-ds.git`
+
+An important thing to note is that code should never get pushed directly into master. You should start out by checking out code using the following command:
+
+`git checkout -b develop origin/develop`
+
+When working on a feature, perform a git checkout with the branch name, e.g. if your branch is called ' DS-412 ' (created from a JIRA ticket):
+
+`git fetch & checkout DS-412`
+A typical set of git commands for working on a new feature is as follows:
+
+`git checkout DS-412`
+
+...
+
+add/edit/delete files for the new feature
+
+...
+
+`git add .`
+
+`git commit -am "friendly message"`
+
+`git push //pushes your changes`
+
+Copy/paste the link that will be returned and do the pullrequest from your browser to develop branch and add Ben, Christina and Pierre as reviewers.
 
   
 ## 4. Installing the Cien-DS Package
