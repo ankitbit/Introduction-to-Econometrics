@@ -104,7 +104,7 @@ using the model tester, refer to: https://bitbucket.org/cienbcn/cien-ds/src/7826
 - Which are the most important common fields in Mongo, such as coid, docid, `_id`, distinction between raw, crm and ml fields
 creating training sets, refer to Shelby's documentation
 
-- Where should I go for having definitions about: lead, opp, account, how salesforce can be used for prospecting and selling, how collections are related: activities performed on an opp/lead/account object, etc, some documentation on this should be in Drive
+- Where should I go for having definitions about: lead, opp, account, how salesforce can be used for prospecting and selling, how collections are related: activities performed on an opp/lead/account object, etc, some documentation on this should be in Drive : We can always look to this [documentation](https://docs.google.com/document/d/1WM2FzXr8zbVry1q48Comq1dUGbqBwqTY5AKCWOrgGIs/edit?usp=sharing) for having a brief insight about these terms and processes
 
 
 
