@@ -1,5 +1,5 @@
 ## 1. Introduction
-
+Welcome! This tutorial will walk you through the most crucial and relevant steps that a data scientist at Cien has to perform when beginning development at Cien. 
 
 ## 2. Data Science tools, platforms and practices
 At Cien, we are engaged with a variety of tools and techniques for making the data science processes as exciting as possible while yielding the best on time. In this regard, we would like to introduce you to following tools-
@@ -17,6 +17,7 @@ At Cien, we are engaged with a variety of tools and techniques for making the da
 - **Studio 3t** : It is a GUI based interface to access MongoDB. We can download it from https://studio3t.com/download/ . 
 - **Lastpass** : This is the coolest password management system known to data science community. At Cien, we use it extensively for sharing passwords during the development. We can download it from the link [Download Lastpass](https://lastpass.com/misc_download2.php). Once you have downloaded the lastpass, you've to register using the email with @cien.ai extension and request the Cien development manager or your supervisor to share the shared data science folder with you.
 - Cien_DS Package :
+- Linter or Flake8: In case you're installing linter on sublime text, you can do so by going to the package manager and choosing the option of linter. In case you're a user of sublime text, you can do so by clicking on this intructional manual [Installing flake8](https://code.visualstudio.com/docs/python/linting)
 
 ## 3. Installing the dependencies for the Cien-DS Package
 - Copy the following and paste it into a text file "requirements.txt" in your local working directory (i.e. the directory where you are at present rather than the root / parent directory).
@@ -47,9 +48,8 @@ By now, you must have created accounts in the following (ask access if you canno
 - Confluence
 - Lastpass
 
-So, now you can ask for access to: Lastpass shared folders from your immediate supervisor or the Cien's development manager. Finally, Clone the Git repository of the cien_ds package locally following the instructions here: 
-`https://bitbucket.org/cienbcn/cien-ds/src/a6b4d62abc1e4482db2e80f626e61bef99f6128a/docs/git.md`
-You should be familiar with git commands. The project uses GitFlow Workflow. Information on this process can be found here: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow.
+So, now you can ask for access to: Lastpass shared folders from your immediate supervisor or the Cien's development manager. 
+You should now be familiar with git commands. The project uses GitFlow Workflow. Information on this process can be found here: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow.
 
 Firstly, clone the main Cien repo by issuing the following command (change <myusername>)
 
@@ -66,11 +66,7 @@ A typical set of git commands for working on a new feature is as follows:
 
 `git checkout DS-412`
 
-...
-
-add/edit/delete files for the new feature
-
-...
+In case you wish to add/edit/delete files for the new feature
 
 `git add .`
 
