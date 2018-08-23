@@ -136,4 +136,6 @@ creating training sets, refer to Shelby's documentation
    + So, we can accomplish all these objectives and many similar like them using our **model tester**. The objective of the model tester as the name says is to run the model as part of testing procedures. However, even if we are not testing and actually willing to write directly into the database, the model tester is something that we have to use. 
 In order to run model tester, we have to follow the steps specified in this documentation: [Introduction to the Model Tester](https://docs.google.com/document/d/144Rz6addcV3dcSbpZAf4c2FK0PbTEZc9qASd6mAvTBg/edit?usp=sharing)
 
+- **How can I perform Quality Assurance/Analysis for the Machine Learning Model that I have developed on the Cien Platform?**
 
+- **How can I utilize the ability of having a local MONGO on my working computer to work locally with the database?**
