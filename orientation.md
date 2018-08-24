@@ -138,4 +138,7 @@ In order to run model tester, we have to follow the steps specified in this docu
 
 - **How can I perform Quality Assurance/Analysis for the Machine Learning Model that I have developed on the Cien Platform?**
 
+In order to perform and enforce quality checks on your model, you have to follow a set of standard procedure developed by Data Scientists at Cien. These are well documented in our report that can be accessed here: [Quality Assessment for Data Science Processes](https://docs.google.com/document/d/1nqkvnuPkWZcAbF2GZn6UVmPh7orFvKkwZFET5w0-DPo/edit)
 - **How can I utilize the ability of having a local MONGO on my working computer to work locally with the database?**
+
+We can run the local MONGO whenever and wherever required by following the documentation described here- [Quality Assessment for Data Science](https://docs.google.com/document/d/1kK8Z7aUse9tq6yEgxJXY48TkbHdkIsbCufvKVR9oUEo/edit)
